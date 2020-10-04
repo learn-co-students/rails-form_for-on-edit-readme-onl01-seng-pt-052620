@@ -761,3 +761,4 @@ Processing by PostsController#edit as HTML
   [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 4]]
   Rendered posts/edit.html.erb within layouts/application (16.0ms)
 Completed 200 OK in 347ms (Views: 318.0ms | ActiveRecord: 0.4ms)
+DEPRECATION WARNING: Omitting the route path is deprecated. Specify the path with a String or a Symbol instead. (called from block in <top (required)> at /Users/admin/online_bootcamp/rails/rails-form_for-on-edit-readme-onl01-seng-pt-052620/config/routes.rb:4)
